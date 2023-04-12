@@ -30,6 +30,13 @@ main {
   font-weight: bold;
 }
 
+.codi,
+.deco{
+
+  margin-left: 5%;
+
+}
+
 .codi:hover,
 .deco:hover,
 .copi:hover {
