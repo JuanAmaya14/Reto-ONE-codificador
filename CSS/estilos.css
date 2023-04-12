@@ -1,0 +1,63 @@
+html{
+
+    font-family: Arial;
+
+}
+
+body{
+
+    background-color: #9EAFF9;
+
+}
+
+header{
+
+    background-color: #8C84E3;
+    padding: 3%;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    
+}
+
+footer{
+
+    background-color: #B893FD;
+
+}
+
+main{
+
+    border: 2px solid #93DEFD;
+    border-radius: 5px;
+    background-color: #93DEFD;
+    margin: 4% 3%;
+
+}
+
+.codi, .deco{
+
+    display: inline-block;
+    padding: 10px 50px;
+
+}
+
+main div, fieldset{
+
+    display: inline-block;
+    margin-left: 6%;
+
+}
+
+label, input, legend{
+
+    display: block;
+    margin: 20px;
+
+}
+
+.texto{
+
+    padding: 10px 30%;
+
+}

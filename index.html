@@ -1,24 +1,50 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/reset.css">
-    <link rel="stylesheet" href="CSS/estilos.css">
-    
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/reset.css" />
+    <link rel="stylesheet" href="CSS/estilos.css" />
+
     <title>Codificador</title>
-</head>
-<body>
-     <Header>
+  </head>
+  <body>
+    <header>
+      <h1>Codificador</h1>
+    </header>
 
-        <h1>Codificador</h1>
+    <main>
+      <form action="">
+        <div>
 
-     </Header>
+            <label for="texto"
+            >Ingresa un texto para codificar o descodificar</label
+          >
+          <input class="texto" type="text" name="texto" id="texto">
+          <legend>No deben usarse mayusculas y caracteres especiales</legend>
+          <input class="codi" type="submit" value="codificar">
+          <input class="deco" type="submit" value="descodificar">
 
-    
+        </div>
+
+        <fieldset>
+
+            <label for="resultado"
+            >Aqui los resultados</label
+          >
+          <input type="text" name="resultado" id="resultado">
+
+        </fieldset>
+
+      </form>
+    </main>
+
+    <footer>
 
 
-    <script src="JS/codificador.js"></script>
-</body>
+    </footer>
+
+    <script src="JS/script.js"></script>
+  </body>
 </html>
