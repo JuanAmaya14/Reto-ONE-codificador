@@ -43,9 +43,6 @@ function Decodificar() {
 
 const reglas = { "a": "ai", "e": "enter", "i": "imes", "o": "ober", "u": "ufat" };
 
-//var codi = document.querySelector("#codificar");
-//codi.onclick = Verificar;
-
 document.querySelector("#codificar").onclick = function (event) {
     event.preventDefault();
     Verificar("codificar");
