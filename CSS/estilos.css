@@ -1,63 +1,66 @@
-html{
-
-    font-family: Arial;
-
+html {
+  font-family: Arial;
 }
 
-body{
-
-    background-color: #9EAFF9;
-
+body {
+  background-color: #9eaff9;
 }
 
-header{
-
-    background-color: #8C84E3;
-    padding: 3%;
-    text-align: center;
-    font-size: 40px;
-    font-weight: bold;
-    
+header {
+  background-color: #8c84e3;
+  padding: 3%;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
 }
 
-footer{
-
-    background-color: #B893FD;
-
+main {
+  border: 2px solid #93defd;
+  border-radius: 5px;
+  background-color: #93defd;
+  margin: 4% 3%;
 }
 
-main{
-
-    border: 2px solid #93DEFD;
-    border-radius: 5px;
-    background-color: #93DEFD;
-    margin: 4% 3%;
-
+.codi,
+.deco,
+.copi {
+  display: inline-block;
+  padding: 10px 50px;
+  background-color: #b892fc;
+  font-weight: bold;
 }
 
-.codi, .deco{
-
-    display: inline-block;
-    padding: 10px 50px;
-
+.codi:hover,
+.deco:hover,
+.copi:hover {
+  background-color: #8c84e3;
+  transform: scale(1.1);
 }
 
-main div, fieldset{
-
-    display: inline-block;
-    margin-left: 6%;
-
+main div,
+fieldset {
+  display: inline-block;
+  margin-left: 10%;
 }
 
-label, input, legend{
-
-    display: block;
-    margin: 20px;
-
+div legend {
+  color: dimgrey;
+  font-style: italic;
 }
 
-.texto{
+label,
+input,
+legend {
+  display: block;
+  margin: 20px;
+  font-weight: bold;
+}
 
-    padding: 10px 30%;
+.texto {
+  padding: 10px 3%;
+  width: 85%;
+}
 
+.result {
+  padding: 3% 3%;
 }

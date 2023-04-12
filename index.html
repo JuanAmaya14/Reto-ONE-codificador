@@ -17,33 +17,30 @@
     <main>
       <form action="">
         <div>
-
-            <label for="texto"
+          <label for="texto"
             >Ingresa un texto para codificar o descodificar</label
           >
-          <input class="texto" type="text" name="texto" id="texto">
-          <legend>No deben usarse mayusculas y caracteres especiales</legend>
-          <input class="codi" type="submit" value="codificar">
-          <input class="deco" type="submit" value="descodificar">
-
+          <input class="texto" type="text" name="texto" id="texto" />
+          <legend>
+            &#8520; No deben usarse mayusculas y caracteres especiales
+          </legend>
+          <input class="codi" type="submit" value="codificar" />
+          <input class="deco" type="submit" value="descodificar" />
         </div>
 
         <fieldset>
-
-            <label for="resultado"
-            >Aqui los resultados</label
-          >
-          <input type="text" name="resultado" id="resultado">
-
+          <label for="resultado">Aqui apareceran resultados</label>
+          <textarea
+            class="result"
+            name="resultado"
+            id="resultado"
+            cols="30"
+            rows="10"
+          ></textarea>
+          <input class="copi" type="submit" value="copiar" />
         </fieldset>
-
       </form>
     </main>
-
-    <footer>
-
-
-    </footer>
 
     <script src="JS/script.js"></script>
   </body>
