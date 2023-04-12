@@ -15,8 +15,8 @@ header {
 }
 
 main {
-  border: 2px solid #93defd;
-  border-radius: 5px;
+  border: 3px dotted black;
+  border-radius: 10px;
   background-color: #93defd;
   margin: 4% 3%;
 }
@@ -48,6 +48,7 @@ main div,
 fieldset {
   display: inline-block;
   margin-left: 10%;
+  font-weight: bold;
 }
 
 div legend {
@@ -60,7 +61,7 @@ input,
 legend {
   display: block;
   margin: 20px;
-  font-weight: bold;
+  
 }
 
 .texto {
