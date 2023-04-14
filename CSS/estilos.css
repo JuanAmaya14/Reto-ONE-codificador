@@ -31,10 +31,8 @@ main {
 }
 
 .codi,
-.deco{
-
+.deco {
   margin-left: 5%;
-
 }
 
 .codi:hover,
@@ -61,7 +59,6 @@ input,
 legend {
   display: block;
   margin: 20px;
-  
 }
 
 .texto {
@@ -71,4 +68,12 @@ legend {
 
 .result {
   padding: 3% 3%;
+}
+
+.nulo {
+  border: 2px solid black;
+  position: absolute;
+  margin: 55px 0 0 0;
+  width: 260px;
+  z-index: 1;
 }
